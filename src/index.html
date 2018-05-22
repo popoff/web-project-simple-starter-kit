@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html class="no-js  page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <meta name="description" content="Home page!">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+</head>
+
+<body>
+
+  <header class="page-header" id="page-header">
+    <div class="dropdown  dropleft  page-header__lang">
+      <button class="btn btn-outline-light dropdown-toggle" type="button" id="language-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        English
+      </button>
+      <div class="dropdown-menu" aria-labelledby="language-select">
+        <a class="dropdown-item" href="#">English</a>
+        <a class="dropdown-item" href="#">Spain</a>
+        <a class="dropdown-item" href="#">Русский</a>
+      </div>
+    </div>
+    <div class="page-header__text">
+      <span class="page-header__uptitle">Our Company</span>
+      <h1 class="page-header__title">Bring your ideas to life</h1>
+      <p class="page-header__descr">Anything you've even dreamed about is possible to realise just at the moment when you decided to win.</p>
+    </div>
+    <a href="#first-content-block" class="page-header__arrow-wrap" id="arrow-bottom"><svg class="page-header__arrow-svg" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592"><path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path></svg></a>
+  </header>
+
+  <div class="block-text" id="first-content-block">
+    Book design is the art of incorporating the content, style, format, design, and sequence of the various components of a book into a coherent whole. In the words of Jan Tschichold, "methods and rules upon which it is impossible to improve, have been developed over centuries. To produce perfect books, these rules have to be brought back to life and applied."<br>
+    Front matter, or preliminaries, is the first section of a book, and is usually the smallest section in terms of the number of pages. Each page is counted, but no folio or page number is expressed, or printed, on either display pages or blank pages.
+  </div>
+
+  <div class="slider">
+    <div class="slider__inner  owl-carousel" id="photo-slider">
+      <div class="slider__item">
+        <img src="img/photo.jpg" alt="" class="slider__img">
+      </div>
+      <div class="slider__item">
+        <img src="img/photo.jpg" alt="" class="slider__img">
+      </div>
+      <div class="slider__item">
+        <img src="img/photo.jpg" alt="" class="slider__img">
+      </div>
+      <div class="slider__item">
+        <img src="img/photo.jpg" alt="" class="slider__img">
+      </div>
+    </div>
+  </div>
+
+  <div class="block-text">
+    Book design is the art of incorporating the content, style, format, design, and sequence of the various components of a book into a coherent whole. In the words of Jan Tschichold, "methods and rules upon which it is impossible to improve, have been developed over centuries. To produce perfect books, these rules have to be brought back to life and applied."<br>
+    Front matter, or preliminaries, is the first section of a book, and is usually the smallest section in terms of the number of pages. Each page is counted, but no folio or page number is expressed, or printed, on either display pages or blank pages.
+  </div>
+
+
+  <div class="player">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="block-text">
+    Book design is the art of incorporating the content, style, format, design, and sequence of the various components of a book into a coherent whole. In the words of Jan Tschichold, "methods and rules upon which it is impossible to improve, have been developed over centuries. To produce perfect books, these rules have to be brought back to life and applied."<br>
+    Front matter, or preliminaries, is the first section of a book, and is usually the smallest section in terms of the number of pages. Each page is counted, but no folio or page number is expressed, or printed, on either display pages or blank pages.
+  </div>
+
+  <footer class="page-footer">
+    <div class="page-footer__inner">
+      <form action="#" class="page-footer__form">
+        <div class="page-footer__form-inner">
+          <div class="page-footer__contact-wrap">
+            <h2 class="page-footer__contact-title">Contact Us</h2>
+            <ul class="page-footer__contact-list">
+              <li>
+                <a href="tel:+00000000000">+0 000 000 00 00</a>
+              </li>
+              <li>
+                <a href="mailto:some@mail.com">some@mail.com</a>
+              </li>
+            </ul>
+            <p class="page-footer__contact-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="text">Message</label>
+            <textarea class="form-control" id="text" placeholder="Enter message"></textarea>
+          </div>
+          <div class="page-footer__form-btns">
+            <button class="btn  btn-lg  btn-outline-light">Send</button>
+          </div>
+        </div>
+      </form>
+      <div id="map" class="page-footer__map"></div>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCTn_8pkid30xLMK_7_2rkI0_MoX3zIqQ&signed_in=true&callback=initMap"></script>
+      <script>
+        var mapPoints = [
+          [
+            'Point',
+            59.95016094,
+            30.31612718,
+            '<div class="some-class"><h2>Header</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque.</p></div>'
+          ],
+        ];
+
+        // Стилизация карты
+        // Подробнее о стилях: https://developers.google.com/maps/documentation/javascript/styling?hl=ru
+        var mapStyle = [{
+          featureType: 'all',
+          stylers: [{ saturation: -100 }]
+        }];
+
+        // Будущее инфоокно, возникающее по клику на маркере карты
+        var mapInfoWindow = null;
+
+        // Инициализация карты (вызывается после загрузки скрипта)
+        function initMap() {
+          // Найдем тег карты по id
+          var mapDiv = document.getElementById('map');
+          // Определим центр карты
+          var center = {lat: 59.95016094, lng: 30.31612718};
+          // Создадим объект карты
+          var map = new google.maps.Map(mapDiv, {
+            zoom: 13,
+            center: center,
+            disableDefaultUI: true,
+            styles: mapStyle
+          });
+          //  Вызовем функцию, которая расставит маркеры
+          setMapMarkers(map);
+          // Создадим объект инфоокна
+          mapInfoWindow = new google.maps.InfoWindow({
+            content: "loading...",
+            maxWidth: 200
+          });
+          // Начнем следить за ресайзом карты
+          map.addListener('resize', function() {
+            map.panTo(center); // Отцентруем
+          });
+          // Начнем следить за ресайзом окна (важно, если ресайз окна влияет на размер блока карты)
+          google.maps.event.addDomListener(window, 'resize', function(){
+            google.maps.event.trigger(map, 'resize'); // Вызовем событие ресайза карты
+          });
+          // Начнем следить за изменением центра, через 3 с. вернем центр по умолчанию
+          // map.addListener('center_changed', function() {
+          //   window.setTimeout(function() {
+          //     map.panTo(center);
+          //   }, 3000);
+          // });
+        }
+
+        // Функция проставляет маркеры карты
+        function setMapMarkers(map) {
+          // Обходим массив маркеров и проставляем каждый
+          for (var i = 0; i < mapPoints.length; i++) {
+            // Переменная с данными этой точки
+            var point = mapPoints[i];
+            // Создаем маркер карты
+            var marker = new google.maps.Marker({
+              position: {lat: point[1], lng: point[2]},
+              map: map,
+              title: point[0],
+              html: point[3],
+            });
+            // Начинаем следить за кликом на маркере
+            google.maps.event.addListener(marker, 'click', function () {
+              mapInfoWindow.setContent(this.html);
+              mapInfoWindow.open(map, this);
+            });
+          }
+        }
+      </script>
+    </div>
+  </footer>
+
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>
