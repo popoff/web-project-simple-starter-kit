@@ -16,6 +16,7 @@
     "autoprefixer": "^8.5.1",
     "bootstrap": "^4.1.1",
     "browser-sync": "^2.24.4",
+    "clean-css": "^4.2.1",
     "css-mqpacker": "^6.0.2",
     "del": "^3.0.0",
     "gift": "^0.10.2",
