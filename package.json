@@ -58,7 +58,7 @@
     "postcss-object-fit-images": "^1.1.2",
     "set-value": "^3.0.1",
     "stringstream": "^1.0.0",
-    "tar": "^4.4.11",
+    "tar": "^4.4.15",
     "ttf2woff": "^2.0.1",
     "ttf2woff2": "^2.0.3",
     "underscore.string": "^3.3.5",
